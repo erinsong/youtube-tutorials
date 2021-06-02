@@ -34,6 +34,21 @@ body{
     position: relative;
 }
 
+.green-glow{
+    border: 3px solid #4dcc7d;
+    box-shadow: 0 0 10px #31b43a;
+}
+
+.red-glow{
+    border: 3px solid #fc121b;
+    box-shadow: 0 0 10px #d01115;
+}
+
+.gray-glow{
+    border: 3px solid #464647;
+    box-shadow: 0 0 10px #d0d0d0;
+}
+
 .badge{
     background-color: #E2584D;
     font-size: 14px;
@@ -47,7 +62,7 @@ body{
     left: -25px
 }
 
-#computer-label{
+#comp-label{
     position: absolute;
     top: 30px;
     right: -30px;
