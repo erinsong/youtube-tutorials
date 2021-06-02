@@ -34,6 +34,7 @@ body{
     position: relative;
 }
 
+/* glows around score board to reinforce user's result through color and accompany result text*/
 .green-glow{
     border: 3px solid #4dcc7d;
     box-shadow: 0 0 10px #31b43a;
@@ -49,6 +50,7 @@ body{
     box-shadow: 0 0 10px #d0d0d0;
 }
 
+/* user and comp labels on score board*/
 .badge{
     background-color: #E2584D;
     font-size: 14px;

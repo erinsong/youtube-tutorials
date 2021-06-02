@@ -9,18 +9,21 @@ const rock_div = document.getElementById("r");
 const paper_div = document.getElementById("p");
 const scissors_div = document.getElementById("s");
 
+// randomly choose rock, paper, or scissors
 function getComputerChoice() {
     const choices = ['r', 'p', 's'];
     const randomNum = Math.floor(Math.random() * 3);
     return choices[randomNum];
 }
 
+// convert r, p, or s to full word for better readability
 function convertLetter(letter) {
     if (letter === "r") return "Rock";
     if (letter === "p") return "Paper";
     return "Scissors";
 }
 
+// execute when user beats computer
 function win(userChoice, compChoice) {
     userScore++;
     userScore_span.innerHTML = userScore;
@@ -30,6 +33,7 @@ function win(userChoice, compChoice) {
     setTimeout(() => scoreBoard_div.classList.remove("green-glow"), 500);
 }
 
+// execute when computer beats user
 function lose(userChoice, compChoice) {
     compScore++;
     userScore_span.innerHTML = userScore;
@@ -39,6 +43,7 @@ function lose(userChoice, compChoice) {
     setTimeout(() => scoreBoard_div.classList.remove("red-glow"), 500);
 }
 
+// execute when user and computer tie
 function draw(userChoice, compChoice) {
     userScore_span.innerHTML = userScore;
     compScore_span.innerHTML = compScore;
@@ -47,6 +52,7 @@ function draw(userChoice, compChoice) {
     setTimeout(() => scoreBoard_div.classList.remove("gray-glow"), 500);
 }
 
+// determine whether user won, lost, or tied against the computer
 function game(userChoice) {
     const compChoice = getComputerChoice();
     switch (userChoice + compChoice) {
