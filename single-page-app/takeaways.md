@@ -8,3 +8,10 @@
     - script[type=module src] -> <script type="module" src="">
 - {} to add text to an element
 - \> to make a child element
+
+## Learning Markdown Syntax
+**https://www.markdownguide.org/basic-syntax**
+
+- headings #
+- escape \
+- bold ** or __
