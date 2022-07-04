@@ -35,3 +35,5 @@
 2. npm i express
     - install express
 3. touch server.js
+4. node server.js
+    - start server
