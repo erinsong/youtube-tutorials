@@ -35,8 +35,3 @@
 2. npm i express
     - install express
 3. touch server.js
-4. const express = require("express");
-   const path = require("path");
-    - include dependencies
-5. const app = express();
-    - create express app
