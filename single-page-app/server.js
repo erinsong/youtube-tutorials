@@ -12,4 +12,5 @@ app.get("/*", (req, res) => {
     res.sendFile(path.resolve("frontend", "index.html"));
 });
 
-app.listen(process.env.PORT || 5060, () => console.log("Server running..."));
+// changed port to 3000 because 5060 didn't connect
+app.listen(process.env.PORT || 3000, () => console.log("Server running..."));
