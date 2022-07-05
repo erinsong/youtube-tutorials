@@ -1,4 +1,5 @@
 import Dashboard from "./views/Dashboard.js";
+import Posts from "./views/Posts.js";
 
 // using history api to redirect to new page without loading new resource
 // aka click links without reloading page
@@ -13,8 +14,8 @@ const router = async () => {
     // define each route
     const routes = [
         { path: "/", view: Dashboard },
-        //{ path: "/posts", view: () => console.log("Viewing Posts") },
-        //{ path: "/settings", view: () => console.log("Viewing Settings") },
+        { path: "/posts", view: Posts },
+        { path: "/settings", view: Settings },
     ];
 
     const potentialMatches = routes.map(route => { 

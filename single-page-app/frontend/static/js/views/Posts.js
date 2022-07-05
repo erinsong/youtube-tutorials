@@ -3,17 +3,14 @@ import AbstractView from "./AbstractView.js";
 export default class extends AbstractView {
     constructor() {
         super();
-        this.setTitle("Dashboard");
+        this.setTitle("Posts");
     }
 
     // async bc you might want to render/load this from the server side
     async getHtml() {
         return `
-            <h1>Welcome!</h1>
-            <p>This is your dashboard</p>
-            <p>
-                <a href="/posts" data-link>View recent posts</a>
-            </p>
+            <h1>Posts</h1>
+            <p>You are viewing posts</p>
         `;
     }
 }
