@@ -1,7 +1,9 @@
 // all view classes will inherit abstractview
 
 export default class {
-    constructor() {
+    constructor(params) {
+        this.params = params;
+        console.log(this.params);
     }
 
     // set/update page title
