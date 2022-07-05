@@ -1,5 +1,6 @@
 import Dashboard from "./views/Dashboard.js";
 import Posts from "./views/Posts.js";
+import Settings from "./views/Settings.js";
 
 // using history api to redirect to new page without loading new resource
 // aka click links without reloading page
