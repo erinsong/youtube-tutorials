@@ -21,6 +21,7 @@
 - ctrl/command + side arrow -> goes to beginning or end of line
 - ctrl (on mac) + side arrow -> slides through desktop screens
 - ctrl/command + vertical arrow -> goes to beginning or end of document/page
+- ctrl/command + alt/option + side arrow -> move through tabs
 - alt/option + side arrow -> move cursor one delimiter (space, symbol, etc) 
 - alt/option + vertical arrow -> moves current line up and down
 - shift + side arrow -> highlight one character at a time
