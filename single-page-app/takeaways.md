@@ -29,6 +29,11 @@
 - alt/option + shift + side arrow -> highlight one word (not necessarily a word, see desc above) at a time
 - alt/option + shift + vertical arrow -> copy current line up or down
 
+## Console Shortcuts
+
+- Circle with diagonal line through it symbol on top-left -> clear console
+- ctrl + L / command + K -> clear console
+
 ## NPM / node.js 
 
 1. npm init -y
